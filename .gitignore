@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# diretorio criado por engano (brace expansion nao expandida num mkdir)
+{scraper,content_model,static_data,tests}/
+
+# artefatos gerados semanalmente (entrada/saida do pptx_builder) -
+# nao fazem parte do codigo-fonte, cada execucao gera os seus
+mass_*.json
+missa_*.pptx

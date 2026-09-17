@@ -1,0 +1,12 @@
+.git
+.github
+.claude
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+README.md
+README.txt
+mass_*.json
+missa_*.pptx

@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-30",
+  "liturgical_day": "22º Domingo do Tempo Comum | Domingo",
+  "liturgical_color": "Verde",
+  "source_url": "https://liturgia.cancaonova.com/liturgia/22o-domingo-tempo-comum-domingo-3/?sDia=30&sMes=08&sAno=2026",
+  "first_reading": {
+    "reference": "Jr 20,7-9",
+    "source_label": "Leitura do Livro do Profeta Jeremias.",
+    "text": "",
+    "leader_line": "Seduziste-me, Senhor, e deixei-me seduzir; foste mais forte, tiveste mais poder.",
+    "assembly_response": "Graças a Deus."
+  },
+  "psalm": {
+    "reference": "Sl 62(63),2.3-4.5-6.8-9 (R. 2b)",
+    "response": "A minh'alma tem sede de vós, como a terra sedenta, ó meu Deus!",
+    "verses": [
+      "Sois vós, ó Senhor, o meu Deus! Desde a aurora ansioso vos busco!"
+    ]
+  },
+  "second_reading": {
+    "reference": "Rm 12,1-2",
+    "source_label": "Leitura da Carta de São Paulo aos Romanos.",
+    "text": "Não vos conformeis com o mundo, mas transformai-vos, renovando vossa maneira de pensar e de julgar.",
+    "leader_line": "Palavra do Senhor.",
+    "assembly_response": "Graças a Deus."
+  },
+  "gospel_acclamation": {
+    "text": "Aleluia, Aleluia, Aleluia.",
+    "verse": "Que o Pai do Senhor Jesus Cristo nos dê do saber o espírito."
+  },
+  "gospel": {
+    "reference": "Mt 16,21-27",
+    "source_label": "Proclamação do Evangelho de Jesus Cristo segundo Mateus.",
+    "text": "Naquele tempo, Jesus começou a mostrar a seus discípulos que devia ir a Jerusalém e sofrer muito.",
+    "assembly_before": "Glória a vós, Senhor.",
+    "leader_after": "Palavra da Salvação.",
+    "assembly_after": "Glória a vós, Senhor."
+  },
+  "songs": [],
+  "eucharistic_prayer": {
+    "number": 2,
+    "note": ""
+  },
+  "pope_commentary": null
+}

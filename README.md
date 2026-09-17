@@ -72,3 +72,20 @@ slides_automation/
    simples em linha de comando).
 4. Sugestão de músicas por evangelho (regras simples no início, ex:
    por palavra-chave do evangelho → banco de músicas litúrgicas).
+
+## Deploy automático
+
+O projeto é empacotado em Docker e publicado no GitHub Container
+Registry (`ghcr.io/carvalhorafaelvieira/slides-automation`) por
+GitHub Actions:
+
+| Branch | Workflow | Ambiente | Aprovação manual |
+|---|---|---|---|
+| qualquer PR / push | `ci.yml` | — (só valida) | não roda deploy |
+| `qa` | `deploy-qa.yml` | QA (`:qa`) | não |
+| `main` | `deploy-prod.yml` | Produção (`:latest`) | sim (environment `production`) |
+
+Fluxo de promoção: desenvolve-se em uma branch de feature → PR para
+`qa` (dispara deploy de QA) → depois de validado, PR de `qa` para
+`main` (dispara deploy de produção, que fica pendente até alguém
+aprovar em Settings → Environments → production).
